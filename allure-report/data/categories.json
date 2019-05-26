@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Не найден cookie с именем NPS_sended.",
+      "children" : [ {
+        "name" : "test_set_cookie_with_show_window_and_close_scenario",
+        "uid" : "9223f5f5b5bb8e94",
+        "parentUid" : "27b04b744cb3005658b52502e9d1a7c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1558684629245,
+          "stop" : 1558684629581,
+          "duration" : 336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_cookie_with_show_feedback_window_and_close_scenario[0-desktop]",
+        "uid" : "8c28f0f4aa763fd7",
+        "parentUid" : "27b04b744cb3005658b52502e9d1a7c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1558684630056,
+          "stop" : 1558684630462,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'0'", "'desktop'" ]
+      } ],
+      "uid" : "27b04b744cb3005658b52502e9d1a7c2"
+    }, {
+      "name" : "AssertionError: Не открылось окно комментария, а должно было, см.скриншот: feedback_window_not_visible_err",
+      "children" : [ {
+        "name" : "test_show_feedback_window_scenario[6-desktop]",
+        "uid" : "66e0c3bc76e595d1",
+        "parentUid" : "079a19a325748f76d08e7f072bb155b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1558684641131,
+          "stop" : 1558684646972,
+          "duration" : 5841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'6'", "'desktop'" ]
+      } ],
+      "uid" : "079a19a325748f76d08e7f072bb155b2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

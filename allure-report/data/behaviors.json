@@ -1,0 +1,291 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_open_main_page_scenario[http://localhost:58001/-NPS Example]",
+    "uid" : "259d94030b71c3bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684625785,
+      "stop" : 1558684629168,
+      "duration" : 3383
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'NPS Example'", "'http://localhost:58001/'" ]
+  }, {
+    "name" : "test_set_cookie_with_show_window_and_close_scenario",
+    "uid" : "9223f5f5b5bb8e94",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1558684629245,
+      "stop" : 1558684629581,
+      "duration" : 336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_set_cookie_with_show_window_and_user_action_scenario[10-desktop]",
+    "uid" : "d33418adc276dc2c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684629694,
+      "stop" : 1558684629969,
+      "duration" : 275
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'10'", "'desktop'" ]
+  }, {
+    "name" : "test_set_cookie_with_show_feedback_window_and_close_scenario[0-desktop]",
+    "uid" : "8c28f0f4aa763fd7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1558684630056,
+      "stop" : 1558684630462,
+      "duration" : 406
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'0'", "'desktop'" ]
+  }, {
+    "name" : "test_set_cookie_with_empty_feedback_scenario[0-desktop]",
+    "uid" : "69cd1da24a1d0e01",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684630625,
+      "stop" : 1558684631058,
+      "duration" : 433
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'0'", "'desktop'" ]
+  }, {
+    "name" : "test_set_cookie_with_send_feedbac_scenario[0-desktop]",
+    "uid" : "9c510565f24cf435",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684631172,
+      "stop" : 1558684633918,
+      "duration" : 2746
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'0'", "'desktop'" ]
+  }, {
+    "name" : "test_not_to_show_with_cookie_scenario",
+    "uid" : "9bd9f0d097f2633e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684633999,
+      "stop" : 1558684639289,
+      "duration" : 5290
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_show_without_cookie_scenario",
+    "uid" : "5a951b70695c764",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684639339,
+      "stop" : 1558684639567,
+      "duration" : 228
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_show_feedback_window_scenario[0-desktop]",
+    "uid" : "66b59682cf9c9061",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684639626,
+      "stop" : 1558684639959,
+      "duration" : 333
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'0'", "'desktop'" ]
+  }, {
+    "name" : "test_show_feedback_window_scenario[1-desktop]",
+    "uid" : "22d1a831f83eaea2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684640042,
+      "stop" : 1558684640561,
+      "duration" : 519
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'1'", "'desktop'" ]
+  }, {
+    "name" : "test_show_feedback_window_scenario[5-desktop]",
+    "uid" : "b376f354b5ff9b92",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684640737,
+      "stop" : 1558684641063,
+      "duration" : 326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'5'", "'desktop'" ]
+  }, {
+    "name" : "test_show_feedback_window_scenario[6-desktop]",
+    "uid" : "66e0c3bc76e595d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1558684641131,
+      "stop" : 1558684646972,
+      "duration" : 5841
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'6'", "'desktop'" ]
+  }, {
+    "name" : "test_not_to_show_feedback_window_scenario[7-desktop]",
+    "uid" : "bd9f37171c277c07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684647098,
+      "stop" : 1558684652562,
+      "duration" : 5464
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'7'", "'desktop'" ]
+  }, {
+    "name" : "test_not_to_show_feedback_window_scenario[8-desktop]",
+    "uid" : "c4e8f93c8c2936b6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684652669,
+      "stop" : 1558684658120,
+      "duration" : 5451
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'8'", "'desktop'" ]
+  }, {
+    "name" : "test_not_to_show_feedback_window_scenario[9-desktop]",
+    "uid" : "c91b05eff402dc66",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684658217,
+      "stop" : 1558684663690,
+      "duration" : 5473
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'9'", "'desktop'" ]
+  }, {
+    "name" : "test_not_to_show_feedback_window_scenario[10-desktop]",
+    "uid" : "47085e61cb387c4c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684663781,
+      "stop" : 1558684669271,
+      "duration" : 5490
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'10'", "'desktop'" ]
+  }, {
+    "name" : "test_add_without_feedback_scenario[desktop-9]",
+    "uid" : "91b4fabc37ff7f01",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684669368,
+      "stop" : 1558684669736,
+      "duration" : 368
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'9'", "'desktop'" ]
+  }, {
+    "name" : "test_add_without_feedback_scenario[mobile-9]",
+    "uid" : "6ac252d818efc141",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684669819,
+      "stop" : 1558684677324,
+      "duration" : 7505
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'9'", "'mobile'" ]
+  }, {
+    "name" : "test_add_with_feedback_scenario[desktop-2]",
+    "uid" : "a5a9790d74db2427",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684677439,
+      "stop" : 1558684685851,
+      "duration" : 8412
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'2'", "'desktop'" ]
+  }, {
+    "name" : "test_add_with_feedback_scenario[mobile-2]",
+    "uid" : "b53e2522d444e5cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684685983,
+      "stop" : 1558684694339,
+      "duration" : 8356
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'2'", "'mobile'" ]
+  }, {
+    "name" : "test_add_with_empty_feedback_scenario[desktop-1]",
+    "uid" : "c1b5627ccee3251c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684694462,
+      "stop" : 1558684700858,
+      "duration" : 6396
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'1'", "'desktop'" ]
+  }, {
+    "name" : "test_add_with_empty_feedback_scenario[mobile-1]",
+    "uid" : "6bf3c993a2a8ea57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1558684700969,
+      "stop" : 1558684707013,
+      "duration" : 6044
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'1'", "'mobile'" ]
+  } ]
+}

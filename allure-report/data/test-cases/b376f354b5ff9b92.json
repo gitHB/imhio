@@ -1,0 +1,183 @@
+{
+  "uid" : "b376f354b5ff9b92",
+  "name" : "test_show_feedback_window_scenario[5-desktop]",
+  "fullName" : "bdd.main_scenarios#test_show_feedback_window_scenario[5-desktop]",
+  "historyId" : "baaa5e0fe82ad91284fce294c788639d",
+  "time" : {
+    "start" : 1558684640737,
+    "stop" : 1558684641063,
+    "duration" : 326
+  },
+  "description" : "always_show/when_show_comment.feature: Проверка появления окна комментария для оценок <=6",
+  "descriptionHtml" : "<p>always_show/when_show_comment.feature: Проверка появления окна комментария для оценок &lt;=6</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stop",
+    "time" : {
+      "start" : 1558684625783,
+      "stop" : 1558684625784,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "always_show/when_show_comment.feature: Проверка появления окна комментария для оценок <=6",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When открыть главную страницу",
+      "time" : {
+        "start" : 1558684640748,
+        "stop" : 1558684640843,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When удалить все cookie",
+      "time" : {
+        "start" : 1558684640843,
+        "stop" : 1558684640851,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When обновить страницу",
+      "time" : {
+        "start" : 1558684640852,
+        "stop" : 1558684640930,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When выбрать в появившемся окне вариант <user_action> для: <user_agent>",
+      "time" : {
+        "start" : 1558684640930,
+        "stop" : 1558684641028,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "then окно комментария должно появиться",
+      "time" : {
+        "start" : 1558684641028,
+        "stop" : 1558684641063,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "stop::fin",
+    "time" : {
+      "start" : 1558684707096,
+      "stop" : 1558684709450,
+      "duration" : 2354
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "always_show"
+  }, {
+    "name" : "tag",
+    "value" : "when_show_comment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "bdd"
+  }, {
+    "name" : "suite",
+    "value" : "main_scenarios"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3PRQ2QL"
+  }, {
+    "name" : "thread",
+    "value" : "1448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "bdd.main_scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "user_action",
+    "value" : "'5'"
+  }, {
+    "name" : "user_agent",
+    "value" : "'desktop'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "always_show", "when_show_comment" ]
+  },
+  "source" : "b376f354b5ff9b92.json",
+  "parameterValues" : [ "'5'", "'desktop'" ]
+}

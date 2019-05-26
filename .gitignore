@@ -1,0 +1,7 @@
+.idea
+.cache
+.pytest_cache
+/allure-results
+__pycache__
+*.pyc
+*.log

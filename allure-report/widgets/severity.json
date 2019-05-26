@@ -1,0 +1,221 @@
+[ {
+  "uid" : "259d94030b71c3bf",
+  "name" : "test_open_main_page_scenario[http://localhost:58001/-NPS Example]",
+  "time" : {
+    "start" : 1558684625785,
+    "stop" : 1558684629168,
+    "duration" : 3383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bd9f0d097f2633e",
+  "name" : "test_not_to_show_with_cookie_scenario",
+  "time" : {
+    "start" : 1558684633999,
+    "stop" : 1558684639289,
+    "duration" : 5290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e8f93c8c2936b6",
+  "name" : "test_not_to_show_feedback_window_scenario[8-desktop]",
+  "time" : {
+    "start" : 1558684652669,
+    "stop" : 1558684658120,
+    "duration" : 5451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9223f5f5b5bb8e94",
+  "name" : "test_set_cookie_with_show_window_and_close_scenario",
+  "time" : {
+    "start" : 1558684629245,
+    "stop" : 1558684629581,
+    "duration" : 336
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "47085e61cb387c4c",
+  "name" : "test_not_to_show_feedback_window_scenario[10-desktop]",
+  "time" : {
+    "start" : 1558684663781,
+    "stop" : 1558684669271,
+    "duration" : 5490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a951b70695c764",
+  "name" : "test_show_without_cookie_scenario",
+  "time" : {
+    "start" : 1558684639339,
+    "stop" : 1558684639567,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c91b05eff402dc66",
+  "name" : "test_not_to_show_feedback_window_scenario[9-desktop]",
+  "time" : {
+    "start" : 1558684658217,
+    "stop" : 1558684663690,
+    "duration" : 5473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bf3c993a2a8ea57",
+  "name" : "test_add_with_empty_feedback_scenario[mobile-1]",
+  "time" : {
+    "start" : 1558684700969,
+    "stop" : 1558684707013,
+    "duration" : 6044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d33418adc276dc2c",
+  "name" : "test_set_cookie_with_show_window_and_user_action_scenario[10-desktop]",
+  "time" : {
+    "start" : 1558684629694,
+    "stop" : 1558684629969,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1b5627ccee3251c",
+  "name" : "test_add_with_empty_feedback_scenario[desktop-1]",
+  "time" : {
+    "start" : 1558684694462,
+    "stop" : 1558684700858,
+    "duration" : 6396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5a9790d74db2427",
+  "name" : "test_add_with_feedback_scenario[desktop-2]",
+  "time" : {
+    "start" : 1558684677439,
+    "stop" : 1558684685851,
+    "duration" : 8412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69cd1da24a1d0e01",
+  "name" : "test_set_cookie_with_empty_feedback_scenario[0-desktop]",
+  "time" : {
+    "start" : 1558684630625,
+    "stop" : 1558684631058,
+    "duration" : 433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91b4fabc37ff7f01",
+  "name" : "test_add_without_feedback_scenario[desktop-9]",
+  "time" : {
+    "start" : 1558684669368,
+    "stop" : 1558684669736,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c510565f24cf435",
+  "name" : "test_set_cookie_with_send_feedbac_scenario[0-desktop]",
+  "time" : {
+    "start" : 1558684631172,
+    "stop" : 1558684633918,
+    "duration" : 2746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ac252d818efc141",
+  "name" : "test_add_without_feedback_scenario[mobile-9]",
+  "time" : {
+    "start" : 1558684669819,
+    "stop" : 1558684677324,
+    "duration" : 7505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22d1a831f83eaea2",
+  "name" : "test_show_feedback_window_scenario[1-desktop]",
+  "time" : {
+    "start" : 1558684640042,
+    "stop" : 1558684640561,
+    "duration" : 519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b376f354b5ff9b92",
+  "name" : "test_show_feedback_window_scenario[5-desktop]",
+  "time" : {
+    "start" : 1558684640737,
+    "stop" : 1558684641063,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b53e2522d444e5cc",
+  "name" : "test_add_with_feedback_scenario[mobile-2]",
+  "time" : {
+    "start" : 1558684685983,
+    "stop" : 1558684694339,
+    "duration" : 8356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66e0c3bc76e595d1",
+  "name" : "test_show_feedback_window_scenario[6-desktop]",
+  "time" : {
+    "start" : 1558684641131,
+    "stop" : 1558684646972,
+    "duration" : 5841
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd9f37171c277c07",
+  "name" : "test_not_to_show_feedback_window_scenario[7-desktop]",
+  "time" : {
+    "start" : 1558684647098,
+    "stop" : 1558684652562,
+    "duration" : 5464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c28f0f4aa763fd7",
+  "name" : "test_set_cookie_with_show_feedback_window_and_close_scenario[0-desktop]",
+  "time" : {
+    "start" : 1558684630056,
+    "stop" : 1558684630462,
+    "duration" : 406
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "66b59682cf9c9061",
+  "name" : "test_show_feedback_window_scenario[0-desktop]",
+  "time" : {
+    "start" : 1558684639626,
+    "stop" : 1558684639959,
+    "duration" : 333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

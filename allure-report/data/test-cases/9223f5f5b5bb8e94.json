@@ -1,0 +1,187 @@
+{
+  "uid" : "9223f5f5b5bb8e94",
+  "name" : "test_set_cookie_with_show_window_and_close_scenario",
+  "fullName" : "bdd.main_scenarios#test_set_cookie_with_show_window_and_close_scenario",
+  "historyId" : "77ca34968406e04395dcca9823ae2f7f",
+  "time" : {
+    "start" : 1558684629245,
+    "stop" : 1558684629581,
+    "duration" : 336
+  },
+  "description" : "always_show/set_cookie.feature: Проверка установки cookie с отображением окна и закрытием",
+  "descriptionHtml" : "<p>always_show/set_cookie.feature: Проверка установки cookie с отображением окна и закрытием</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Не найден cookie с именем NPS_sended.",
+  "statusTrace" : "request = <FixtureRequest for <Function 'test_set_cookie_with_show_window_and_close_scenario'>>\n\n    @scenario('always_show/set_cookie.feature', 'Проверка установки cookie с отображением окна и закрытием')\n>   def test_set_cookie_with_show_window_and_close_scenario():\n\nbdd\\main_scenarios.py:28: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\hansb\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\pytest_bdd\\scenario.py:194: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\hansb\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\pytest_bdd\\scenario.py:136: in _execute_step_function\n    step_func(**kwargs)\nbdd\\zero_show_rate\\set_cookie_steps.py:32: in cookie_must_be\n    app.common.check_cookie()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <fixture.common_fixtures.CommonHelper object at 0x0A1B07F0>\n\n    def check_cookie(self):\n        if not self.app.wd.get_cookie(\"NPS_sended\"):\n>           assert False, \"Не найден cookie с именем NPS_sended.\"\nE           AssertionError: Не найден cookie с именем NPS_sended.\n\nfixture\\common_fixtures.py:23: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stop",
+    "time" : {
+      "start" : 1558684625783,
+      "stop" : 1558684625784,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "always_show/set_cookie.feature: Проверка установки cookie с отображением окна и закрытием",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Не найден cookie с именем NPS_sended.",
+    "statusTrace" : "request = <FixtureRequest for <Function 'test_set_cookie_with_show_window_and_close_scenario'>>\n\n    @scenario('always_show/set_cookie.feature', 'Проверка установки cookie с отображением окна и закрытием')\n>   def test_set_cookie_with_show_window_and_close_scenario():\n\nbdd\\main_scenarios.py:28: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\hansb\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\pytest_bdd\\scenario.py:194: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\hansb\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\pytest_bdd\\scenario.py:136: in _execute_step_function\n    step_func(**kwargs)\nbdd\\zero_show_rate\\set_cookie_steps.py:32: in cookie_must_be\n    app.common.check_cookie()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <fixture.common_fixtures.CommonHelper object at 0x0A1B07F0>\n\n    def check_cookie(self):\n        if not self.app.wd.get_cookie(\"NPS_sended\"):\n>           assert False, \"Не найден cookie с именем NPS_sended.\"\nE           AssertionError: Не найден cookie с именем NPS_sended.\n\nfixture\\common_fixtures.py:23: AssertionError",
+    "steps" : [ {
+      "name" : "When открыть главную страницу",
+      "time" : {
+        "start" : 1558684629254,
+        "stop" : 1558684629337,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When удалить все cookie",
+      "time" : {
+        "start" : 1558684629338,
+        "stop" : 1558684629345,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When обновить страницу",
+      "time" : {
+        "start" : 1558684629346,
+        "stop" : 1558684629430,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When закрыть окно нажав на крестик",
+      "time" : {
+        "start" : 1558684629430,
+        "stop" : 1558684629575,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "then cookie должен появиться",
+      "time" : {
+        "start" : 1558684629575,
+        "stop" : 1558684629580,
+        "duration" : 5
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Не найден cookie с именем NPS_sended.\n",
+      "statusTrace" : "  File \"E:\\imhio\\bdd\\zero_show_rate\\set_cookie_steps.py\", line 32, in cookie_must_be\n    app.common.check_cookie()\n  File \"E:\\imhio\\fixture\\common_fixtures.py\", line 23, in check_cookie\n    assert False, \"Не найден cookie с именем NPS_sended.\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "stop::fin",
+    "time" : {
+      "start" : 1558684707096,
+      "stop" : 1558684709450,
+      "duration" : 2354
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "always_show"
+  }, {
+    "name" : "tag",
+    "value" : "set_cookie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "bdd"
+  }, {
+    "name" : "suite",
+    "value" : "main_scenarios"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3PRQ2QL"
+  }, {
+    "name" : "thread",
+    "value" : "1448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "bdd.main_scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "set_cookie", "always_show" ]
+  },
+  "source" : "9223f5f5b5bb8e94.json",
+  "parameterValues" : [ ]
+}

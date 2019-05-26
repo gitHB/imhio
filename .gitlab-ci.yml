@@ -1,0 +1,46 @@
+stages:
+  - build
+  - runtest
+  - notify
+  
+variables:
+   CONTAINER_RELEASE_IMAGE: $CI_REGISTRY_IMAGE
+build-container:
+  stage: build
+  retry: 1
+  script:
+    - docker build -t $CONTAINER_RELEASE_IMAGE .
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+    - docker push $CONTAINER_RELEASE_IMAGE
+  only:
+    - master
+  
+test-piter-online-chrome:
+  stage: runtest
+  image: $CI_REGISTRY_IMAGE
+  services:
+    - selenium/standalone-chrome:latest
+  artifacts:
+    name: "allure-report-chrome-$CI_COMMIT_REF_SLUG"
+    when: always
+    expire_in: 1 mos
+    paths:
+      - allure-report
+  variables:
+    GIT_SSL_NO_VERIFY: "true"
+    GIT_STRATEGY: none
+  script:
+    - cd /app
+    - pytest -v --alluredir /app/allure-results --browser chrome --base_url http://localhost:58001/ --docker_adr http://selenium__standalone-chrome:4444/wd/hub /app/bdd/main_scenarios.py
+  after_script:
+    - allure generate /app/allure-results/ -o $CI_PROJECT_DIR/allure-report/
+  only:
+    - master
+  tags:
+    - docker
+    
+notify-on-fail:
+  stage: notify
+  script:
+    - curl "https://api.telegram.org/bot$BOT_TOKEN/sendMessage?chat_id=-*********&text=Тесты_упали"
+  when: on_failure

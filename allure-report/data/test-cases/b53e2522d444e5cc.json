@@ -1,0 +1,213 @@
+{
+  "uid" : "b53e2522d444e5cc",
+  "name" : "test_add_with_feedback_scenario[mobile-2]",
+  "fullName" : "bdd.main_scenarios#test_add_with_feedback_scenario[mobile-2]",
+  "historyId" : "8d79b86ba387bc47b483cad78ebda186",
+  "time" : {
+    "start" : 1558684685983,
+    "stop" : 1558684694339,
+    "duration" : 8356
+  },
+  "description" : "always_show/add_to_db.feature: Проверка добавления записи с комментарием",
+  "descriptionHtml" : "<p>always_show/add_to_db.feature: Проверка добавления записи с комментарием</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stop",
+    "time" : {
+      "start" : 1558684625783,
+      "stop" : 1558684625784,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "always_show/add_to_db.feature: Проверка добавления записи с комментарием",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When открыть главную страницу для <user_agent>",
+      "time" : {
+        "start" : 1558684685989,
+        "stop" : 1558684691505,
+        "duration" : 5516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When удалить все cookie",
+      "time" : {
+        "start" : 1558684691506,
+        "stop" : 1558684691519,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When обновить страницу",
+      "time" : {
+        "start" : 1558684691520,
+        "stop" : 1558684691603,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When выбрать в появившемся окне вариант <user_action> для: <user_agent>",
+      "time" : {
+        "start" : 1558684691603,
+        "stop" : 1558684691792,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When заполнить комментарий",
+      "time" : {
+        "start" : 1558684691793,
+        "stop" : 1558684694164,
+        "duration" : 2371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When в окне комментария нажать send",
+      "time" : {
+        "start" : 1558684694165,
+        "stop" : 1558684694320,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then убедиться в добавлении соответствующей записи для <user_agent> и <user_action>",
+      "time" : {
+        "start" : 1558684694321,
+        "stop" : 1558684694338,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "stop::fin",
+    "time" : {
+      "start" : 1558684707096,
+      "stop" : 1558684709450,
+      "duration" : 2354
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "always_show"
+  }, {
+    "name" : "tag",
+    "value" : "add_to_db"
+  }, {
+    "name" : "parentSuite",
+    "value" : "bdd"
+  }, {
+    "name" : "suite",
+    "value" : "main_scenarios"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3PRQ2QL"
+  }, {
+    "name" : "thread",
+    "value" : "1448-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "bdd.main_scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "user_action",
+    "value" : "'2'"
+  }, {
+    "name" : "user_agent",
+    "value" : "'mobile'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "add_to_db", "always_show" ]
+  },
+  "source" : "b53e2522d444e5cc.json",
+  "parameterValues" : [ "'2'", "'mobile'" ]
+}

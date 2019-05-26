@@ -1,0 +1,7 @@
+selenium
+pytest==4.0.2
+pytest-bdd
+allure-pytest
+webdriver-manager
+pytest-blocker
+pytest-rerunfailures
